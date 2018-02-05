@@ -5,12 +5,13 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour {
 	public GameObject dragon;
-
+	Vector3 addHeight;
 
 	float speed = 200.0f;
 	// Use this for initialization
 	void Start()
 	{
+		
 	}
 
 	void Yaw(float angle)
@@ -40,21 +41,6 @@ public class CameraController : MonoBehaviour {
 		transform.rotation = rot * transform.rotation;
 	}
 
-	void Walk(float units)
-	{
-		transform.position += transform.forward * units;
-	}
-
-	void Fly(float units)
-	{
-		transform.position += Vector3.up * units;
-	}
-
-	void Strafe(float units)
-	{
-		transform.position += transform.right * units;
-	}
-
 	// Update is called once per frame
 	void Update () {
 		float mouseX, mouseY;
@@ -65,7 +51,7 @@ public class CameraController : MonoBehaviour {
 		Pitch(-mouseY);
 
 		//change position to above the dragon
-		transform.position = dragon.transform.position;
+		transform.position = dragon.transform.position+ new Vector3(0,10,0);
 	}
 
 }
