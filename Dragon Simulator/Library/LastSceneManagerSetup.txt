@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/DragonSim.unity
+- path: Assets/Scenes/DragonSim.unity
   isLoaded: 1
   isActive: 1
