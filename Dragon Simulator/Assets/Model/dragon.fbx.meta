@@ -1,0 +1,264 @@
+fileFormatVersion: 2
+guid: ddb443c973d4a4f4b85f0f482a81ab5a
+timeCreated: 1519316001
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Armature
+    100002: body
+    100004: //RootNode
+    100006: dragon
+    100008: head
+    100010: head_end
+    100012: neck
+    100014: ORG-body
+    100016: ORG-head
+    100018: ORG-head_end
+    100020: ORG-neck
+    100022: ORG-wingIK.L
+    100024: ORG-wingIK.L_end
+    100026: ORG-wingIK.R
+    100028: ORG-wingIK.R_end
+    100030: ORG-winglow.L
+    100032: ORG-winglow.R
+    100034: ORG-wingmid.L
+    100036: ORG-wingmid.R
+    100038: ORG-wingup.L
+    100040: ORG-wingup.L_end
+    100042: ORG-wingup.R
+    100044: ORG-wingup.R_end
+    100046: rig
+    100048: root
+    100050: WGT-rig_root
+    100052: WGTS_rig
+    100054: wingIK.L
+    100056: wingIK.L_end
+    100058: wingIK.R
+    100060: wingIK.R_end
+    100062: winglow.L
+    100064: winglow.R
+    100066: wingmid.L
+    100068: wingmid.R
+    100070: wingup.L
+    100072: wingup.L_end
+    100074: wingup.R
+    100076: wingup.R_end
+    400000: Armature
+    400002: body
+    400004: //RootNode
+    400006: dragon
+    400008: head
+    400010: head_end
+    400012: neck
+    400014: ORG-body
+    400016: ORG-head
+    400018: ORG-head_end
+    400020: ORG-neck
+    400022: ORG-wingIK.L
+    400024: ORG-wingIK.L_end
+    400026: ORG-wingIK.R
+    400028: ORG-wingIK.R_end
+    400030: ORG-winglow.L
+    400032: ORG-winglow.R
+    400034: ORG-wingmid.L
+    400036: ORG-wingmid.R
+    400038: ORG-wingup.L
+    400040: ORG-wingup.L_end
+    400042: ORG-wingup.R
+    400044: ORG-wingup.R_end
+    400046: rig
+    400048: root
+    400050: WGT-rig_root
+    400052: WGTS_rig
+    400054: wingIK.L
+    400056: wingIK.L_end
+    400058: wingIK.R
+    400060: wingIK.R_end
+    400062: winglow.L
+    400064: winglow.R
+    400066: wingmid.L
+    400068: wingmid.R
+    400070: wingup.L
+    400072: wingup.L_end
+    400074: wingup.R
+    400076: wingup.R_end
+    2100000: dragon__color_map1_png
+    2300000: WGT-rig_root
+    2300002: WGTS_rig
+    3300000: WGT-rig_root
+    3300002: WGTS_rig
+    4300000: WGTS_rig
+    4300002: WGT-rig_root
+    4300004: dragon
+    7400000: Armature|ArmatureAction
+    7400002: Armature|ArmatureAction.001
+    7400004: Armature|HeadLeft
+    7400006: Armature|HeadRight
+    7400008: Armature|Wings
+    9500000: //RootNode
+    13700000: dragon
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|HeadLeft
+      takeName: Armature|HeadLeft
+      firstFrame: 0
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|HeadRight
+      takeName: Armature|HeadRight
+      firstFrame: 0
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Wings
+      takeName: Armature|Wings
+      firstFrame: 0
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

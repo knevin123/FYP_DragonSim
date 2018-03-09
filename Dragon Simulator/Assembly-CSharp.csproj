@@ -51,18 +51,58 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\ActiveStateToggler.cs" />
+     <Compile Include="Assets\Scripts\Addwiiplus.cs" />
+     <Compile Include="Assets\Scripts\AiManager.cs" />
+     <Compile Include="Assets\Scripts\ApplicationManager.cs" />
+     <Compile Include="Assets\Scripts\Boid.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\ChangeColor.cs" />
+     <Compile Include="Assets\Scripts\DragMe.cs" />
+     <Compile Include="Assets\Scripts\DragonAnimation.cs" />
+     <Compile Include="Assets\Scripts\DragonBehaviour.cs" />
      <Compile Include="Assets\Scripts\DragonMove.cs" />
+     <Compile Include="Assets\Scripts\DragPanel.cs" />
+     <Compile Include="Assets\Scripts\DropMe.cs" />
      <Compile Include="Assets\Scripts\EndlessTerrain.cs" />
+     <Compile Include="Assets\Scripts\Flee.cs" />
      <Compile Include="Assets\Scripts\ForceController.cs" />
      <Compile Include="Assets\Scripts\FPSController.cs" />
      <Compile Include="Assets\Scripts\MapDisplay.cs" />
      <Compile Include="Assets\Scripts\MapGenerator.cs" />
      <Compile Include="Assets\Scripts\MeshGenerator.cs" />
      <Compile Include="Assets\Scripts\Noise.cs" />
+     <Compile Include="Assets\Scripts\ObstacleAvoidance.cs" />
+     <Compile Include="Assets\Scripts\PanelManager.cs" />
+     <Compile Include="Assets\Scripts\PathWander.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\ResizePanel.cs" />
+     <Compile Include="Assets\Scripts\ScrollDetailTexture.cs" />
+     <Compile Include="Assets\Scripts\ShowSliderValue.cs" />
+     <Compile Include="Assets\Scripts\StartNature.cs" />
+     <Compile Include="Assets\Scripts\SteeringBehaviour.cs" />
      <Compile Include="Assets\Scripts\Sun.cs" />
      <Compile Include="Assets\Scripts\TextureGenerator.cs" />
+     <Compile Include="Assets\Scripts\TiltWindow.cs" />
+     <Compile Include="Assets\Scripts\Wander.cs" />
+     <Compile Include="Assets\Wiimote\Scripts\Enums.cs" />
+     <Compile Include="Assets\Wiimote\Scripts\HIDapi.cs" />
+     <Compile Include="Assets\Wiimote\Scripts\Internal\ReadOnlyArray.cs" />
+     <Compile Include="Assets\Wiimote\Scripts\Internal\RegisterReadData.cs" />
+     <Compile Include="Assets\Wiimote\Scripts\Wiimote.cs" />
+     <Compile Include="Assets\Wiimote\Scripts\WiimoteData\AccelData.cs" />
+     <Compile Include="Assets\Wiimote\Scripts\WiimoteData\ButtonData.cs" />
+     <Compile Include="Assets\Wiimote\Scripts\WiimoteData\ClassicControllerData.cs" />
+     <Compile Include="Assets\Wiimote\Scripts\WiimoteData\IRData.cs" />
+     <Compile Include="Assets\Wiimote\Scripts\WiimoteData\MotionPlusData.cs" />
+     <Compile Include="Assets\Wiimote\Scripts\WiimoteData\NunchuckData.cs" />
+     <Compile Include="Assets\Wiimote\Scripts\WiimoteData\StatusData.cs" />
+     <Compile Include="Assets\Wiimote\Scripts\WiimoteData\WiimoteData.cs" />
+     <Compile Include="Assets\Wiimote\Scripts\WiimoteData\WiiUProData.cs" />
+     <Compile Include="Assets\Wiimote\Scripts\WiimoteManager.cs" />
+     <None Include="Assets\Fonts\Jupiter\LICENSE.txt" />
+     <None Include="Assets\Textures and Sprites\SF UI\Background\LICENSE.txt" />
+     <None Include="Assets\Materials\UI-Default-No-Alpha.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

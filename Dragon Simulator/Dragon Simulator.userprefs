@@ -1,16 +1,20 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ForceController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ObstacleAvoidance.cs">
     <Files>
-      <File FileName="Assets\Scripts\EndlessTerrain.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\MapGenerator.cs" Line="1" Column="1" />
-      <File FileName="Assets\Editor\MapGeneratorEditor.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Noise.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PlayerMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Sun.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\CameraController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FPSController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\DragonAnimation.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\ForceController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\FPSController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Boid.cs" Line="23" Column="56" />
+      <File FileName="Assets\Scripts\SteeringBehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Wander.cs" Line="10" Column="17" />
+      <File FileName="Assets\Scripts\Flee.cs" Line="1" Column="26" />
+      <File FileName="Assets\Scripts\EndlessTerrain.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\StartNature.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\DragonBehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AiManager.cs" Line="9" Column="2" />
+      <File FileName="Assets\Scripts\PathWander.cs" Line="31" Column="16" />
+      <File FileName="Assets\Scripts\ObstacleAvoidance.cs" Line="121" Column="48" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

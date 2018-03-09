@@ -1,36 +1,41 @@
 fileFormatVersion: 2
 guid: 2ddcdc9a09b64c144ad97fe416db1d1e
-timeCreated: 1517322407
+timeCreated: 1519322314
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: Armature
-    100002: Bone
-    100004: Bone_001
-    100006: Bone_002
-    100008: Bone_003
-    100010: Bone_004
-    100012: Bone_005
-    100014: Bone_006
-    100016: dragon
-    100018: //RootNode
+    100002: body
+    100004: dragon
+    100006: head
+    100008: neck
+    100010: //RootNode
+    100012: winglow_L
+    100014: winglow_R
+    100016: wingmid_L
+    100018: wingmid_R
+    100020: wingup_L
+    100022: wingup_R
     400000: Armature
-    400002: Bone
-    400004: Bone_001
-    400006: Bone_002
-    400008: Bone_003
-    400010: Bone_004
-    400012: Bone_005
-    400014: Bone_006
-    400016: dragon
-    400018: //RootNode
-    2100000: dents
-    2300000: dragon
-    3300000: dragon
+    400002: body
+    400004: dragon
+    400006: head
+    400008: neck
+    400010: //RootNode
+    400012: winglow_L
+    400014: winglow_R
+    400016: wingmid_L
+    400018: wingmid_R
+    400020: wingup_L
+    400022: wingup_R
+    2100000: dragon__color_map1_png
     4300000: dragon
     7400000: Default Take
+    7400002: HeadLeft
+    7400004: HeadRight
     9500000: //RootNode
+    13700000: dragon
   externalObjects: {}
   materials:
     importMaterials: 1
