@@ -4,12 +4,15 @@ public class AiManager : MonoBehaviour {
 
 	public int targetCount = 6;
 	public float radius = 200;
+	float dist=0;
+	public Vector3 toUser;
 	public GameObject aiPrefab;
+	public GameObject user;
 	Vector3 target;
 
 	System.Collections.IEnumerator SpawnDragons()
 	{
-		yield return new WaitForSeconds(3);
+		yield return new WaitForSeconds(1);
 		while (true)
 		{
 			GameObject[] enemies = GameObject.FindGameObjectsWithTag("AI");
@@ -23,12 +26,21 @@ public class AiManager : MonoBehaviour {
 						, c.y
 					);
 			}
-			yield return new WaitForSeconds(2);
+			//calculate distance to user
+			/*for (int i = 0; i < enemies.Length; i++) {
+				toUser=enemies[i].transform.position-user.transform.position;
+				dist=toUser.magnitude;
+				if (dist>300){
+					DestroyImmediate(enemies[i]);
+				}
+			}*/
+			yield return new WaitForSeconds(1);
 		}
 	}
 
 	// Use this for initialization
-	void Start () {
+	void OnEnable(){
+		user = GameObject.FindGameObjectWithTag("User");
 		StartCoroutine(SpawnDragons());
 
 	}

@@ -51,6 +51,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ClosestHoop.cs" />
+     <Compile Include="Assets\HoopScore.cs" />
+     <Compile Include="Assets\ScoreController.cs" />
      <Compile Include="Assets\Scripts\ActiveStateToggler.cs" />
      <Compile Include="Assets\Scripts\Addwiiplus.cs" />
      <Compile Include="Assets\Scripts\AiManager.cs" />
@@ -68,6 +71,7 @@
      <Compile Include="Assets\Scripts\Flee.cs" />
      <Compile Include="Assets\Scripts\ForceController.cs" />
      <Compile Include="Assets\Scripts\FPSController.cs" />
+     <Compile Include="Assets\Scripts\HoopManager.cs" />
      <Compile Include="Assets\Scripts\MapDisplay.cs" />
      <Compile Include="Assets\Scripts\MapGenerator.cs" />
      <Compile Include="Assets\Scripts\MeshGenerator.cs" />
@@ -100,7 +104,7 @@
      <Compile Include="Assets\Wiimote\Scripts\WiimoteData\WiimoteData.cs" />
      <Compile Include="Assets\Wiimote\Scripts\WiimoteData\WiiUProData.cs" />
      <Compile Include="Assets\Wiimote\Scripts\WiimoteManager.cs" />
-     <None Include="Assets\Fonts\Jupiter\LICENSE.txt" />
+     <None Include="Assets\Materials\Fonts\Jupiter\LICENSE.txt" />
      <None Include="Assets\Textures and Sprites\SF UI\Background\LICENSE.txt" />
      <None Include="Assets\Materials\UI-Default-No-Alpha.shader" />
  <Reference Include="UnityEngine.UI">

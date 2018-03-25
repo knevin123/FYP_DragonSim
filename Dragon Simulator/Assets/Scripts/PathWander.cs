@@ -22,7 +22,6 @@ public class PathWander : SteeringBehaviour {
 			, Random.Range(10,30)
 				, c.y+boid.transform.position.z
 			);
-		Debug.Log (target);
 	}
 
 	// Update is called once per frame

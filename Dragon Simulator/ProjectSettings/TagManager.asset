@@ -9,6 +9,10 @@ TagManager:
   - Undefined
   - AI
   - Dragon
+  - User
+  - Hoop
+  - Score
+  - Arrow
   layers:
   - Default
   - TransparentFX

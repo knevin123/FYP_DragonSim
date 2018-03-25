@@ -20,7 +20,7 @@ public class Boid : MonoBehaviour {
 		{
 			this.behaviours.Add(b);
 		}
-		dragon = GameObject.FindGameObjectWithTag ("Dragon");
+		dragon = GameObject.FindGameObjectWithTag ("User");
 	}
 
 	public Vector3 SeekForce(Vector3 target)

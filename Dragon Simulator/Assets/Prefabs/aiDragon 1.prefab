@@ -648,9 +648,9 @@ MonoBehaviour:
   scale: 4
   forwardFeelerDepth: 30
   sideFeelerDepth: 15
-  frontFeelerUpdatesPerSecond: 10
+  frontFeelerUpdatesPerSecond: 5
   sideFeelerUpdatesPerSecond: 5
-  feelerRadius: 2
+  feelerRadius: 4
   forceType: 0
   mask:
     serializedVersion: 2
@@ -670,7 +670,7 @@ MonoBehaviour:
   acceleration: {x: 0, y: 0, z: 0}
   velocity: {x: 0, y: 0, z: 0}
   mass: 1
-  maxSpeed: 5
+  maxSpeed: 20
   dragon: {fileID: 0}
 --- !u!114 &114515740159329590
 MonoBehaviour:

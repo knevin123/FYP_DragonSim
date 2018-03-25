@@ -26,6 +26,7 @@ public class MapGenerator : MonoBehaviour {
 
 	public float meshHeightMultiplier;
 	public AnimationCurve meshHeightCurve;
+	public GameObject castlePrefab;
 
 	public bool autoUpdate;
 
