@@ -11,3 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DragonSim.unity
     guid: bf7df5d658a3c95468c1345eb3038f90
+  - enabled: 1
+    path: Assets/Scenes/hoopGame.unity
+    guid: 24a280387e00d464297700b7a285a7ee

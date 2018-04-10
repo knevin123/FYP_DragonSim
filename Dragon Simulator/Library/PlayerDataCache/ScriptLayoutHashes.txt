@@ -2,6 +2,7 @@ WindowsStandalone
 SceneListBegin?
 Assets/Scenes/Menu.unity
 Assets/Scenes/DragonSim.unity
+Assets/Scenes/hoopGame.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 970a95104359198fe1a98ef48655de8c UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -154,8 +155,8 @@ df343383b9d2e96226a204a164f3994d Assembly-CSharp.dll:.DragMe
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
-09a51dab831725e6804df53723969f1b Assembly-CSharp.dll:.MapGenerator
-0f223d8f5280153617ebf3e633ded55c Assembly-CSharp.dll:.AiManager
+dd6ab1be7cc76be23516470edd092ddd Assembly-CSharp.dll:.MapGenerator
+e6d0a8346a0219b5e9e12646206477fa Assembly-CSharp.dll:.AiManager
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
@@ -168,5 +169,13 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Sun
 5465eae51985f0cb194548215d2133ec Assembly-CSharp.dll:.ScrollDetailTexture
 7d300ef74ce64a17e184844968b88d0b Assembly-CSharp.dll:.ObstacleAvoidance
+b3f6c2b6e90ec87a0b2c89f41bf4ddd2 Assembly-CSharp.dll:.HoopManager
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ApplicationManager
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ChangeColor
+5113377ddfe47785ece0ee92d1f90eac Assembly-CSharp.dll:.HoopScore
+7c6fb094f5246b8f18656fe8bd7cfc58 Assembly-CSharp.dll:.ScoreController
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ClosestHoop
+5023cc9e2f9e5129a74a910e2194edfc Assembly-CSharp.dll:.SelectOnInput
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.EndGame
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.StartRing
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GameManage

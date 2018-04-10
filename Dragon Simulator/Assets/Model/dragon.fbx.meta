@@ -44,6 +44,8 @@ ModelImporter:
     100072: wingup.L_end
     100074: wingup.R
     100076: wingup.R_end
+    100078: dragon_MeshPart0
+    100080: dragon_MeshPart1
     400000: Armature
     400002: body
     400004: //RootNode
@@ -83,6 +85,8 @@ ModelImporter:
     400072: wingup.L_end
     400074: wingup.R
     400076: wingup.R_end
+    400078: dragon_MeshPart0
+    400080: dragon_MeshPart1
     2100000: dragon__color_map1_png
     2300000: WGT-rig_root
     2300002: WGTS_rig
@@ -91,6 +95,8 @@ ModelImporter:
     4300000: WGTS_rig
     4300002: WGT-rig_root
     4300004: dragon
+    4300006: dragon_MeshPart0
+    4300008: dragon_MeshPart1
     7400000: Armature|ArmatureAction
     7400002: Armature|ArmatureAction.001
     7400004: Armature|HeadLeft
@@ -98,6 +104,8 @@ ModelImporter:
     7400008: Armature|Wings
     9500000: //RootNode
     13700000: dragon
+    13700002: dragon_MeshPart0
+    13700004: dragon_MeshPart1
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -225,8 +233,6 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    preserveHierarchy: 1
-    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88

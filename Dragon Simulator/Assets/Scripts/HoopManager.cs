@@ -28,7 +28,7 @@ public class HoopManager : MonoBehaviour {
 				GameObject hoop = GameObject.Instantiate(hoopPrefab);
 				Vector2 c = Random.insideUnitCircle * radius;
 				hoop.transform.position = new Vector3
-					(c.x
+					(c.x 
 						, 45
 						, c.y
 					);

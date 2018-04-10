@@ -17,6 +17,8 @@ ModelImporter:
     100018: wingmid_R
     100020: wingup_L
     100022: wingup_R
+    100024: dragon_MeshPart0
+    100026: dragon_MeshPart1
     400000: Armature
     400002: body
     400004: dragon
@@ -29,13 +31,19 @@ ModelImporter:
     400018: wingmid_R
     400020: wingup_L
     400022: wingup_R
+    400024: dragon_MeshPart0
+    400026: dragon_MeshPart1
     2100000: dragon__color_map1_png
     4300000: dragon
+    4300002: dragon_MeshPart0
+    4300004: dragon_MeshPart1
     7400000: Default Take
     7400002: HeadLeft
     7400004: HeadRight
     9500000: //RootNode
     13700000: dragon
+    13700002: dragon_MeshPart0
+    13700004: dragon_MeshPart1
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -79,8 +87,6 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    preserveHierarchy: 0
-    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88

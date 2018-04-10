@@ -12,7 +12,7 @@ public class Boid : MonoBehaviour {
 	public float maxSpeed = 5.0f;   
 	public GameObject dragon;
 	// Use this for initialization
-	void Start () {
+	void OnEnable () {
 
 		SteeringBehaviour[] behaviours = GetComponents<SteeringBehaviour>();
 
